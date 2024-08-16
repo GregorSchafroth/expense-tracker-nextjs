@@ -59,12 +59,15 @@ body {
   border: 0;
 }
 
-/* h1 {
+strong {
   letter-spacing: 1px;
   margin: 0;
-} */
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
 
-h3 {
+h2 {
   border-bottom: 1px solid #bbb;
   padding-bottom: 10px;
   margin: 40px 0 10px;

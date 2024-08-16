@@ -7,7 +7,7 @@ const Balance = async () => {
   return (
     <>
       <h3>Your Balance</h3>
-      <strong>${addApostrophe(balance ?? 0)}</strong>
+      <strong>${addApostrophe(Number(balance?.toFixed(2) ?? 0))}</strong>
     </>
   );
 };
